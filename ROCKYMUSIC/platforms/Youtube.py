@@ -19,7 +19,7 @@ import config
 
 API_URL = "https://pytdbotapi.thequickearn.xyz"
 VIDEO_API_URL = "https://api.video.thequickearn.xyz"
-API_KEY = "NxGBNexGenBotsbb404a"
+API_KEY = "NxGBNexGenBotsc75140"
 
 
 def cookie_txt_file():
