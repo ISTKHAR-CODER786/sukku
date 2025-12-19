@@ -4,7 +4,7 @@ from pyrogram import Client, filters, enums
 class BUTTONS(object):
     ABUTTON = [
 
-**➻ ᴛʜɪs ɪs <u>{0}</u>
+
 ─────────────────────────
 ❖ ᴧ ϻᴜsɪᴄ ʙσᴛ ғσʀ ᴛєʟєɢʀᴧϻ ɢʀσᴜᴘs / ᴄʜᴧηηєʟs
 ─────────────────────────
