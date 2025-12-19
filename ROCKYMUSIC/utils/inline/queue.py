@@ -13,7 +13,6 @@ from ROCKYMUSIC import app
 from ROCKYMUSIC.utils.formatters import time_to_seconds
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-
 def queue_markup(
     _,
     DURATION,
@@ -74,45 +73,23 @@ def queue_back_markup(_, CPLAY):
     return upl
 
 
-#def aq_markup(_, chat_id):
-   # buttons = [
-       # [
-           # InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-         #   InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-           # InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-           # InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-           # InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
-      #  ],
-       # [
-          #  InlineKeyboardButton(
-              #  text="˹ᴄʜᴀᴛ ʙᴏᴛ˼ ", url=f"https://t.me/JullyChatBot"
-             #),
-          #  InlineKeyboardButton(
-              #  text="˹ᴍᴜsɪᴄ ʙᴏᴛ ˼", url=f"https://t.me/ShriramxBot"
-            #),
-        #],
-     # ]
-    #return buttons
-
 def aq_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="• ᴄʜᴀᴛ •",
-                url=f"https://t.me/+xfr6-ZOTaZVmODU1"
+                text="ᴊᴏɪɴ ɴᴏᴡ",
+                url=f"https://t.me/IamIstkhar"
             ),
             InlineKeyboardButton(
-                text="• ʙᴏᴛ •",
-                url="https://t.me/Vibe_Bots"
+                text="ɢʀᴏᴜᴘ ᴄʜᴧᴛ",
+                url="https://t.me/+xfr6-ZOTaZVmODU1"
             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="ᴄʟᴏsᴇ",
+                callback_data="close"
+            )
         ],
     ]
     return buttons
-
-# ===========================================================
-# ©️ 2025-26 All Rights Reserved by Team Rocky (Im-Notcoder) 😎
-# 
-# 🧑‍💻 Developer : t.me/mrrockytg
-# 🔗 Source link : t.me/rockyxsupport
-# 📢 Telegram channel : t.me/rockyxupdate
-# ===========================================================
